@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.total-price{
+  text-align: right;  
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+.orderBtn {
+    width: 120px;
+    padding: 8px;
+    background: orangered;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 16px;
+    color: #fff;
+  }
+  .orderBtn:hover {
+    background: rgb(89, 0, 190);
+  }
+  
