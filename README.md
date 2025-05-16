@@ -1,12 +1,44 @@
-# React + Vite
+# Redux Shopping Cart App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React shopping cart application with real-time cart management using Redux for state management and Firebase Realtime Database as the backend.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🛒 Add, update, and remove items from your cart
+- 🔄 Real-time cart updates synced with Firebase
+- 🔐 Simple authentication (login/logout)
+- ⚛️ State management with Redux Toolkit
+- 🚀 Responsive and user-friendly UI
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Live App](https://redux-shopping-cart-app-three.vercel.app/)
+
+## Firebase Realtime Database
+
+[Firebase Endpoint](https://redux-http-4d11c-default-rtdb.firebaseio.com/)
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Swetasmita/redux-shopping-cart-app.git
+   cd redux-shopping-cart-app
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+## Technologies Used
+
+- React
+- Redux Toolkit
+- Firebase Realtime Database
+
